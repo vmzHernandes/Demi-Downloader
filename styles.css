@@ -28,8 +28,8 @@ body {
 }
 
 /* Input de texto */
-.container-input {
-    margin-bottom: 1rem;
+.container-file-name {
+    margin: 1rem 0;
 }
 .container-input:focus {
     outline: none;
@@ -38,7 +38,8 @@ body {
 
 /* Botão */
 .download-btn,
-#user-input {
+#url-input,
+#file-name-input {
     background-color: transparent;
     color: white;
     border: 0;

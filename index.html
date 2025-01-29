@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demi Downloader</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,14 +12,19 @@
 </head>
 <body>
     <section class="container-main-content">
-        <div class="container-input">
-            <label for="user-input" class="font-roboto-thin">Link do Vídeo</label>
-            <input type="text" id="user-input">
+        <div class="container-url-input">
+            <label for="url-input" class="font-roboto-thin">Link do Vídeo</label>
+            <input type="text" id="url-input">
         </div>
-        <button class="download-btn font-roboto-thin" onclick="download()">Baixar</button>
+        <div class="container-file-name">
+            <label for="file-name-input" class="font-roboto-thin">Nome do Arquivo</label>
+            <input type="text" id="file-name-input">
+        </div>
+        <button class="download-btn font-roboto-thin" onclick="download()" disabled="disableBtn">Baixar</button>
     </section>
 
     <!-- JS -->
+    <script src="backend.js"></script>
     <script src="scripts.js"></script>
 </body>
 </html>
