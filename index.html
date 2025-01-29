@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <label for="user-input">Link do Vídeo</label>
-    <input type="text" id="user-input">
-    <button onclick="download()">CLICA AQUI MEU</button>
+    <section class="container-main-content">
+        <div class="container-input">
+            <label for="user-input" class="font-roboto-thin">Link do Vídeo</label>
+            <input type="text" id="user-input">
+        </div>
+        <button class="download-btn font-roboto-thin" onclick="download()">Baixar</button>
+    </section>
 
     <!-- JS -->
     <script src="scripts.js"></script>

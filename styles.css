@@ -1,0 +1,47 @@
+/* Estilização Geral */
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+    background-color: #121212;
+    color: white;
+}
+.font-roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+/* .font-roboto-thick {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+} */
+
+/* Container Principal */
+.container-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input de texto */
+.container-input {
+    margin-bottom: 1rem;
+}
+.container-input:focus {
+    outline: none;
+    border: none;
+}
+
+/* Botão */
+.download-btn,
+#user-input {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
